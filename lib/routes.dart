@@ -2,7 +2,6 @@ import 'package:ejercicio_5/views/contacto_screen.dart';
 import 'package:ejercicio_5/views/home_screen.dart';
 import 'package:ejercicio_5/views/prestamo_calculadora.dart';
 import 'package:ejercicio_5/views/quienes_somos_screen.dart';
-import 'package:ejercicio_5/views/servicios_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppRoutes {
@@ -15,7 +14,6 @@ class AppRoutes {
   static Map<String, WidgetBuilder> get routes => {
         home: (context) => const HomeScreen(),
         quienesSomos: (context) => const QuienesSomos(),
-        servicios: (context) => const Servicios(),
         calculadora: (context) => const PrestamoCalculadora(),
         contacto: (context) => const Contacto()
       };

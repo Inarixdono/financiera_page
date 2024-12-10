@@ -36,13 +36,6 @@ class CustomNavigationDrawer extends StatelessWidget {
             },
           ),
           ListTile(
-            leading: const Icon(Icons.business_center),
-            title: const Text("Servicios"),
-            onTap: () {
-              Navigator.pushNamed(context, '/servicios');
-            },
-          ),
-          ListTile(
             leading: const Icon(Icons.calculate),
             title: const Text("Calcular Préstamo"),
             onTap: () {
