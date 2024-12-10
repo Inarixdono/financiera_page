@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'views/prestamo_calculadora.dart';
 import 'routes.dart';
 
 void main() {

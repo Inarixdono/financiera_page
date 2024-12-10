@@ -1,5 +1,5 @@
-import 'package:financiera_pagina/widgets/app_bar_actions.dart';
-import 'package:financiera_pagina/widgets/navigation_drawer.dart';
+import 'package:ejercicio_5/widgets/app_bar_actions.dart';
+import 'package:ejercicio_5/widgets/navigation_drawer.dart';
 import 'package:flutter/material.dart';
 
 class Servicios extends StatelessWidget {
